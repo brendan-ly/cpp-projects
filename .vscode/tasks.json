@@ -8,9 +8,7 @@
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "-o"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -31,10 +29,8 @@
             "args": [
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "-g",   
+                "-o"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -52,9 +48,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "-o"
             ],
             "options": {
                 "cwd": "${fileDirname}"
